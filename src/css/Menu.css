@@ -1,0 +1,37 @@
+.menu {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-item {
+  border-radius: 30px;
+  padding: 5px 10px;
+  margin: 3px 0px;
+  transition: 0.5s;
+  text-align: center;
+}
+
+.menu-item:hover {
+  background-color: #bbafff;
+}
+
+.menu-item-active {
+    background-color: #bbafff;
+}
+
+.menu-link {
+  font-size: 32px;
+  text-decoration: none;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+}
+.menu-link:focus {
+    color: blueviolet;
+}
+.menu-link-icon {
+  margin: 0px 5px;
+  display: flex;
+  align-items: center;
+}

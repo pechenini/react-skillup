@@ -1,0 +1,11 @@
+.login-form {
+  background-color: #fff;
+  border-radius: 3px;
+  width: 30vw;
+}
+
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
